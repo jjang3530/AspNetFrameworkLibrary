@@ -147,3 +147,4 @@ C:\Users\Jay\LibraryApplication\LibraryApplication\obj\Debug\LibraryApplication.
 C:\Users\Jay\LibraryApplication\LibraryApplication\obj\Debug\LibraryApplication.csproj.CopyComplete
 C:\Users\Jay\LibraryApplication\LibraryApplication\obj\Debug\LibraryApplication.dll
 C:\Users\Jay\LibraryApplication\LibraryApplication\obj\Debug\LibraryApplication.pdb
+C:\Users\Jay\LibraryApplication\LibraryApplication\obj\Debug\LibraryApplication.csprojAssemblyReference.cache

@@ -59,6 +59,22 @@
 }
 
 </table>
+<form style="width:360px;float:left;">
+    <div class="input-group">
+        <span class="input-group-addon">
+            <select name="searchKind">
+                <option value="Title" @(ViewBag.SearchKind == "Title" ? "Selected": "")>Title</option>
+                <option value="Writer" @(ViewBag.SearchKind == "Writer" ? "Selected": "")>Writer</option>
+                <option value="Publisher" @(ViewBag.SearchKind == "Publisher" ? "Selected": "")>Publisher</option>
+            </select>
+        </span>
+        <input class="form-control" type="text" name="keyword" value="@ViewBag.Keyword"/>
+        <span class="input-group-btn">
+            <button class="btn btn-info type=submit">Serch</button>
+        </span>
+    </div>
+</form>
+
 <div class="text-center">
     <div class="btn-group">
         @for (int i = 1; i <= totalPageCount; i++)
@@ -72,5 +88,4 @@
         <a class="btn btn-@(pageNum == 4 ? "primary" : "default")" href="?page=4">4</a>
         <a class="btn btn-@(pageNum == 5 ? "primary" : "default")" href="?page=5">5</a>*@
     </div>
-</div>
 </div>
